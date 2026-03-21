@@ -8,7 +8,6 @@ function Header() {
         Cybersecurity Student
       </h2>
       
-      {/* Контакти в один рядок */}
       <div className="flex flex-wrap justify-center items-center gap-4 text-sm font-semibold">
         <strong>Email:</strong> <a href="mailto:viktoriia.bobak.kb.2023@lpnu.ua" className="hover:text-emerald-700 transition-colors">
           viktoriia.bobak.kb.2023@lpnu.ua
