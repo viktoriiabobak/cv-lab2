@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     fetchReviews();
-    
+
     //3
     const modalOverlay = document.querySelector('.modal-overlay');
     const closeModalBtn = document.querySelector('.close-modal');
@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (event.target === modalOverlay) modalOverlay.classList.add('hidden');
         });
     }
+
     //4
     const themeToggleBtn = document.querySelector('.theme-toggle');
     const body = document.body;
